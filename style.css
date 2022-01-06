@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-.nav {
+.header {
   background-color: #3c3a39;
   display: flex;
   align-items: center;
@@ -13,9 +13,17 @@
   padding: 15px;
 }
 
+.header a {
+  text-decoration: none;
+}
+
 .two {
   color: #acb7c3;
   font-size: 24px;
+}
+
+h1 {
+  color: #fff;
 }
 
 h2 {
