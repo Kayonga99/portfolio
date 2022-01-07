@@ -2,6 +2,7 @@
   padding: 0;
   box-sizing: border-box;
   margin: 0;
+  list-style: none;
 }
 
 .header {
@@ -72,4 +73,171 @@ p {
   color: #dbd8d7;
   margin-top: 24px;
   font-size: 24px;
+}
+
+.work {
+  font-size: 40px;
+  color: #1c1a19;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.text {
+  color: #091e42;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.head {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+hr {
+  width: 327px;
+  color: #212121;
+  margin: 24px 0 80px 4px;
+  text-align: center;
+}
+
+.temp2 {
+  background-image: url(./photos/temp2.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.size {
+  height: 386px;
+  width: 327px;
+  align-self: center;
+}
+
+.temp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tech {
+  display: flex;
+  padding-top: 22px;
+  gap: 15px;
+}
+
+.tech li {
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+}
+
+.btn {
+  padding: 12px;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+  font-size: 17px;
+  width: 124px;
+  margin: 22px 0;
+}
+
+.btn-2 {
+  width: 100%;
+}
+
+.text-2 {
+  color: #fff;
+  height: 89px;
+  width: 288px;
+  margin-bottom: 12px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  gap: 50px;
+}
+
+.pad {
+  padding-left: 15px;
+}
+
+.card-heading {
+  margin-top: 84px;
+  margin-bottom: 12px;
+  color: #fff;
+  text-align: left;
+}
+
+.tech-2 {
+  padding-top: 0;
+  color: #fff;
+}
+
+.tech-2 li {
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.about {
+  color: #ff6b00;
+  padding-top: 120px;
+  font-size: 56px;
+  line-height: 64px;
+  font-family: 'Crete Round', sans-serif;
+}
+
+.container-2 {
+  display: flex;
+  background-color: #1c1a19;
+  margin-top: 120px;
+  height: 600px;
+  padding-left: 24px;
+  background-image: url(./photos/Group1.png);
+  background-repeat: no-repeat;
+  background-position: 240px 328px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.btn-res {
+  width: 161px;
+}
+
+.text-res {
+  color: #fff;
+}
+
+.about-section {
+  background-color: #1c1a19;
+  color: #fff;
+}
+
+.about-section ul li {
+  margin-bottom: 32px;
+  font-size: 22px;
+  padding-left: 38px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 86px;
+}
+
+.about-section .main {
+  font-size: 32px;
+  padding-left: 0;
+}
+
+.hr {
+  margin-left: 40px;
+  width: 315px;
 }
