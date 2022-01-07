@@ -22,11 +22,11 @@
   font-size: 24px;
 }
 
-h1 {
+.logo {
   color: #fff;
 }
 
-h2 {
+.name {
   color: #ff6b00;
   padding-top: 120px;
   font-size: 56px;
