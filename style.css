@@ -241,3 +241,19 @@ hr {
   margin-left: 40px;
   width: 315px;
 }
+.prg {
+  padding-top: 120px;
+  margin-bottom: 100px;  
+  color: #172B4D;
+  width: 327px;
+  font-size: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+}
+.form{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
