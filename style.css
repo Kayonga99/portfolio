@@ -257,3 +257,22 @@ hr {
   flex-direction: column;
   
 }
+
+.msg {
+  padding-top: 96px;
+  margin-left: 70px;
+  margin-right: 24px;
+  width: 327px;
+  background: #FBF8F7;
+}
+.get-in {
+  padding: 12px;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+  font-size: 17px;
+  width: 124px;
+  display: flex;
+  letter-spacing: 0.03em;
+  margin-left: 111px; 
+}
