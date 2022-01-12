@@ -59,12 +59,6 @@ h3 {
   list-style: none;
   gap: 10px;
 }
-.list-2 {
-  display: flex;
-  list-style: none;
-  gap: 10px;
-  colorf: #505f79;
-}
 
 p {
   width: 327px;
@@ -79,6 +73,18 @@ p {
   color: #dbd8d7;
   margin-top: 24px;
   font-size: 24px;
+}
+
+.list-2 {
+  justify-content: center;
+}
+
+.list-2 li i {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  justify-content: center;
+  color: #505f79;
 }
 
 .work {
@@ -101,7 +107,7 @@ p {
 
 hr {
   width: 327px;
-  color: #212121;
+  color: #dbd8d7;
   margin: 24px 0 80px 4px;
   text-align: center;
 }
@@ -244,8 +250,17 @@ hr {
 }
 
 .hr {
-  margin-left: 40px;
-  width: 315px;
+  margin-right: 120px;
+  margin-left: 120px;
+  justify-content: center;
+  width: 134px;
+  background-color: #0d151e;
+  height: 5px;
+  margin-bottom: 8px;
+}
+
+.hr-1 {
+  width: 100%;
 }
 
 .prg {
@@ -254,9 +269,6 @@ hr {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  position: static;
-  width: 327px;
-  height: 216px;
   position: static;
   width: 327px;
   height: 216px;
@@ -285,19 +297,22 @@ hr {
   border-radius: 4px;
 }
 
+input {
+  height: 18px;
+  margin-bottom: -20px;
+  width: 295px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
 form input,
 textarea {
   width: 327px;
   border: none;
   border-radius: 4px;
-  background: #fff;
-  color: #979493;
   padding: 12px;
-}
-
-input {
-  height: 18px;
-  margin-bottom: -20px;
+  color: #3c3a39;
+  font-size: 15px;
 }
 
 .tonic button {
@@ -327,10 +342,9 @@ input {
 }
 
 .msg {
-  padding-top: 10px;
-  margin-right: 24px;
-  width: 327px;
+  background-color: #fbf8f7;
 }
+
 .get-in {
   padding: 12px;
   color: #fff;
