@@ -257,10 +257,13 @@ hr {
   background-color: #0d151e;
   height: 5px;
   margin-bottom: 8px;
+  border-radius: 10px;
 }
 
 .hr-1 {
   width: 100%;
+  margin-bottom: 5px;
+  margin-top: 124px;
 }
 
 .prg {
@@ -319,10 +322,10 @@ textarea {
   background-color: #ff6b00;
   color: #fff;
   border: none;
-  border-radius: 5px;
   font-size: 17px;
-  width: 124px;
+  width: 132px;
   padding: 12px 16px;
+  margin-top: 24px;
 }
 
 .tonic {
