@@ -63,9 +63,8 @@ h3 {
   display: flex;
   list-style: none;
   gap: 10px;
-  colorf: #505F79;
+  colorf: #505f79;
 }
-
 
 p {
   width: 327px;
@@ -250,14 +249,21 @@ hr {
 }
 
 .prg {
-  color: #172b4d;
-  width: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 32px;
-  font-family: "Poppins", sans-serif;
-  padding-right: 24px;
-  font-size: 19px;
-  line-height: 24px;
-  font-weight: 400;
+  line-height: 44px;
+  position: static;
+  width: 327px;
+  height: 216px;
+  position: static;
+  width: 327px;
+  height: 216px;
+  color: #172b4d;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 80px;
 }
 
 .form {
@@ -287,10 +293,12 @@ textarea {
   background: #fff;
   color: #979493;
   padding: 12px;
-  
 }
 
-
+input {
+  height: 18px;
+  margin-bottom: -20px;
+}
 
 .tonic button {
   background-color: #ff6b00;
@@ -309,11 +317,19 @@ textarea {
   justify-content: center;
 }
 
+.tonic button:active {
+  background-color: #fff;
+  color: #ff6b00;
+}
+
+.tonic button:hover {
+  opacity: 0.7;
+}
+
 .msg {
   padding-top: 10px;
   margin-right: 24px;
   width: 327px;
-  
 }
 .get-in {
   padding: 12px;
@@ -324,5 +340,5 @@ textarea {
   width: 124px;
   display: flex;
   letter-spacing: 0.03em;
-  margin-left: 111px; 
+  margin-left: 111px;
 }
