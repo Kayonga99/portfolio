@@ -335,13 +335,19 @@ textarea {
   justify-content: center;
 }
 
-.tonic button:active {
-  background-color: #fff;
-  color: #ff6b00;
+.tonic button:hover {
+  color: #f55800;
+  background-color: #fff5e1;
 }
 
-.tonic button:hover {
-  opacity: 0.7;
+.tonic button:active {
+  background: #e05304;
+  color: #fff;
+}
+
+.tonic button:disabled {
+  color: #5b5957;
+  background: #f4f1f0;
 }
 
 .msg {
