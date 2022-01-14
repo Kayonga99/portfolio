@@ -308,6 +308,14 @@ input {
   line-height: 24px;
 }
 
+input:hover {
+  transform: translate(20px, 10px);
+}
+
+textarea:hover {
+  transform: translate(20px, 10px);
+}
+
 form input,
 textarea {
   width: 327px;
