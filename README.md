@@ -6,6 +6,7 @@
 
 ![screenshot](./Screenshot2.png)
 
+
 Additional description about the project and its features.
 
 ## Built With
@@ -33,12 +34,13 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 ### Deployment
+[Click here to view web](https://kayonga99.github.io/portfolio/)
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Kayonga C**
 
 - GitHub: [@Kayonga99](https://github.com/Kayonga99)
 - Twitter: [@KayongaChiteta3](https://twitter.com/KayongaChiteta3?t=gfILCjmltzGRZOx6FZ8-nQ&s=08)
