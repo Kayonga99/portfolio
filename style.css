@@ -26,6 +26,13 @@
 
 .logo {
   color: #fff;
+  animation: rotation 2s;
+}
+
+@keyframes rotation {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .logo-li {
@@ -325,6 +332,14 @@ input {
   width: 295px;
   font-size: 15px;
   line-height: 24px;
+}
+
+input:hover {
+  transform: translate(20px, 10px);
+}
+
+textarea:hover {
+  transform: translate(20px, 10px);
 }
 
 form input,
