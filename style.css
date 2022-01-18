@@ -334,14 +334,6 @@ input {
   line-height: 24px;
 }
 
-input:hover {
-  transform: translate(20px, 10px);
-}
-
-textarea:hover {
-  transform: translate(20px, 10px);
-}
-
 form input,
 textarea {
   width: 327px;
@@ -350,6 +342,14 @@ textarea {
   padding: 12px;
   color: #3c3a39;
   font-size: 15px;
+}
+
+input:hover {
+  transform: translate(20px, 10px);
+}
+
+textarea:hover {
+  transform: translate(20px, 10px);
 }
 
 .tonic button {
