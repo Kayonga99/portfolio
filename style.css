@@ -404,6 +404,15 @@ textarea:hover {
   display: none;
 }
 
+.nav-list-menu {
+  background-color: #3c3a39;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  color: #fff;
+  display: flex;
+}
+
 @media screen and (min-width: 992px) {
   .d-none {
     display: none;
@@ -435,7 +444,7 @@ textarea:hover {
   }
 
   .container {
-    background-image: url('./photos/desktop/head.png');
+    background-image: url("./photos/desktop/head.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right bottom;
@@ -477,19 +486,19 @@ textarea:hover {
   }
 
   .common-1 {
-    background-image: url('./photos/desktop/common-1.png');
+    background-image: url("./photos/desktop/common-1.png");
   }
 
   .bg-1 {
-    background-image: url('./photos/desktop/bg-1.png');
+    background-image: url("./photos/desktop/bg-1.png");
   }
 
   .common-3 {
-    background-image: url('./photos/desktop/common-3.png');
+    background-image: url("./photos/desktop/common-3.png");
   }
 
   .container-2 {
-    background-image: url('./photos/desktop/footer.png');
+    background-image: url("./photos/desktop/footer.png");
     background-position: 100% 136px;
     margin-left: 142px;
     background-repeat: no-repeat;
