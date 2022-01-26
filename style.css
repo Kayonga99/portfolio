@@ -449,6 +449,77 @@ textarea:hover {
   text-align: center;
 }
 
+.bgpopup {
+background-color: #979493;
+position: fixed;
+display: none;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+overflow-y: scroll;
+
+}
+
+.container-pop {
+background-color: #fff;
+width: 90%;
+height: 100%;
+z-index: 1;
+position: absolute;
+bottom: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+top: 20px;
+left: 17px;
+}
+
+.multi {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+height: 82px;
+font-weight: bold;
+width: 284px;
+left: 0px;
+top: 0px;
+font-size: 32px;
+line-height: 44px;
+color: #172B4D;
+position: static;
+font-weight: 700;
+}
+
+.multi-med {
+  display: inline-flex;
+}
+
+#close-popup {
+  width: 12px;
+  height: 12px;
+  padding-top: 13px;
+  padding-left: 6px;
+}
+
+.puOut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding: 16px;
+  width: 343px;
+}
+
+.puOut li {
+  padding: 10px 10px;
+  background: rgba(255, 255, 255, 0.24);
+  border: 1px beige;
+  margin-right: 10px;
+  border: 1px solid #DFE1E6;
+}
+
+
 @media screen and (min-width: 992px) {
   .d-none {
     display: none;
