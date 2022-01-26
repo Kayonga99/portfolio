@@ -261,6 +261,13 @@ hr {
   color: #fff;
 }
 
+.puOut li {
+  padding: 10px 10px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 10px;
+  border: 1px solid #dfe1e6;
+}
+
 .about-section ul li {
   margin-bottom: 32px;
   font-size: 22px;
@@ -450,45 +457,43 @@ textarea:hover {
 }
 
 .bgpopup {
-background-color: #979493;
-position: fixed;
-display: none;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-width: 100%;
-overflow-y: scroll;
-
+  background-color: #979493;
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  overflow-y: scroll;
 }
 
 .container-pop {
-background-color: #fff;
-width: 90%;
-height: 100%;
-z-index: 1;
-position: absolute;
-bottom: 0;
-display: flex;
-flex-direction: column;
-align-items: center;
-top: 20px;
-left: 17px;
+  background-color: #fff;
+  width: 90%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 20px;
+  left: 17px;
 }
 
 .multi {
-font-family: "Roboto", sans-serif;
-font-style: normal;
-height: 82px;
-font-weight: bold;
-width: 284px;
-left: 0px;
-top: 0px;
-font-size: 32px;
-line-height: 44px;
-color: #172B4D;
-position: static;
-font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  height: 82px;
+  width: 284px;
+  left: 0;
+  top: 0;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  position: static;
+  font-weight: 700;
 }
 
 .multi-med {
@@ -511,14 +516,36 @@ font-weight: 700;
   width: 343px;
 }
 
-.puOut li {
-  padding: 10px 10px;
-  background: rgba(255, 255, 255, 0.24);
-  border: 1px beige;
-  margin-right: 10px;
-  border: 1px solid #DFE1E6;
+.live-prg {
+  color: #344563;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  width: 311px;
+  height: 220px;
+  margin: 12px 0;
+  order: 0;
+  line-height: 24px;
+  font-weight: 400;
+  flex-grow: 0;
 }
 
+.btn-live {
+  padding: 6px 8px;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+  font-size: 17px;
+}
+
+.multi-media {
+  display: none;
+}
+
+.live-source {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+}
 
 @media screen and (min-width: 992px) {
   .d-none {
@@ -723,5 +750,24 @@ font-weight: 700;
 
   .top-line {
     width: 794px;
+  }
+
+  .multi-media {
+    display: block;
+    font-family: "Crete Round;", sans-serif;
+    font-style: normal;
+    height: 40px;
+    width: 874px;
+    left: 0;
+    top: 0;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    position: static;
+    font-weight: 400;
+  }
+
+  .multi {
+    display: none;
   }
 }

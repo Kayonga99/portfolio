@@ -6,6 +6,8 @@
 
 ![screenshot](./Screenshot2.png)
 ![screenshot](./Screenshot3.png)
+![popup screenshot](./popup-screenshot.png)
+
 
 
 Additional description about the project and its features.

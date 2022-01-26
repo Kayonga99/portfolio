@@ -2,9 +2,9 @@ const btn = document.getElementById('btn');
 const closeButton = document.getElementById('close');
 const nav = document.querySelector('.nav');
 const list = document.querySelectorAll('.common-li');
-const seeProjectBtns = document.querySelectorAll('.btns')
-const popup = document.querySelector('.bgpopup')
-const closePopupBtn = document.getElementById('close-popup')
+const seeProjectBtns = document.querySelectorAll('.btns');
+const popup = document.querySelector('.bgpopup');
+const closePopupBtn = document.getElementById('close-popup');
 
 console.log(closePopupBtn);
 function closeBtn() {
@@ -29,8 +29,8 @@ list.forEach((element) => {
 btn.addEventListener('click', navList);
 closeButton.addEventListener('click', closeBtn);
 
-seeProjectBtns.forEach(element => {
-  element.addEventListener('click', openPopup )
+seeProjectBtns.forEach((element) => {
+  element.addEventListener('click', openPopup);
 });
 
-closePopupBtn.addEventListener('click', closePopup)
+closePopupBtn.addEventListener('click', closePopup);
