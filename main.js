@@ -6,7 +6,6 @@ const seeProjectBtns = document.querySelectorAll('.btns');
 const popup = document.querySelector('.bgpopup');
 const closePopupBtn = document.getElementById('close-popup');
 
-console.log(closePopupBtn);
 function closeBtn() {
   nav.classList.remove('nav-list-menu');
 }
