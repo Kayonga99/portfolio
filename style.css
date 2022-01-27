@@ -513,7 +513,6 @@ textarea:hover {
   align-items: center;
   list-style: none;
   padding: 16px;
-  width: 343px;
 }
 
 .live-prg {
@@ -559,6 +558,28 @@ textarea:hover {
   .d-block {
     display: block;
   }
+
+  .live-source {
+    padding-left: 519px;
+  }
+
+  .puOut {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 16px;
+    padding-right: 635px;
+  }
+  
+.pop-querry {
+  display: flex;
+gap: 19px
+}
+.img-popup {
+  width: 566px;
+  padding-top: 32px;
+}
 
   .d-none-m {
     display: block;
@@ -770,4 +791,31 @@ textarea:hover {
   .multi {
     display: none;
   }
+
+.live-prg {
+  width: 424;
+  font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+padding-top: 13px;
+height: 326px;
+}
+.container-pop {
+background-color: #fff;
+height: 631px;
+z-index: 1;
+width: 1156px;
+position: absolute;
+bottom: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+top: 20px;
+left: 82px;
+justify-content: center;
+}
+
 }
