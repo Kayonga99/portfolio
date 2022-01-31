@@ -33,3 +33,5 @@ seeProjectBtns.forEach((element) => {
 });
 
 closePopupBtn.addEventListener('click', closePopup);
+
+
