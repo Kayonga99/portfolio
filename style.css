@@ -13,6 +13,7 @@
   justify-content: space-between;
   color: #fff;
   padding: 15px;
+  padding-bottom: 0px;
 }
 
 .common-li a {
@@ -31,6 +32,8 @@
 .logo {
   color: #fff;
   animation: rotation 2s;
+  width: 92px;
+  height: 60px;
 }
 
 @keyframes rotation {
@@ -439,7 +442,7 @@ textarea:hover {
   color: #fff5e1;
   margin-bottom: 25px;
   font-size: 32px;
-  padding: 16px 110px 50px 7px;
+      padding: 16px 66px 9px 7px;
   border-bottom: solid 1px #6f6c6b;
 }
 
@@ -608,7 +611,7 @@ textarea:hover {
   }
 
   .logo {
-    margin-left: 154px;
+    margin-left: 103px;
   }
 
   .nav-list {
