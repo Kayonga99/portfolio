@@ -1,3 +1,4 @@
+const btn = document.getElementById('btn');
 const nav = document.querySelector('.nav');
 const list = document.querySelectorAll('.common-li');
 
