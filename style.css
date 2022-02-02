@@ -13,6 +13,7 @@
   justify-content: space-between;
   color: #fff;
   padding: 15px;
+  padding-bottom: 0;
 }
 
 .common-li a {
@@ -31,6 +32,7 @@
 .logo {
   color: #fff;
   animation: rotation 2s;
+  width: 92px;
 }
 
 @keyframes rotation {
@@ -261,6 +263,13 @@ hr {
   color: #fff;
 }
 
+.puOut li {
+  padding: 10px 10px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 10px;
+  border: 1px solid #dfe1e6;
+}
+
 .about-section ul li {
   margin-bottom: 32px;
   font-size: 22px;
@@ -410,18 +419,17 @@ textarea:hover {
 
 .nav-list-menu {
   background-color: #3c3a39;
-  width: 100%;
-  height: 100%;
+  width: 375px;
+  height: 755px;
   z-index: 10;
   color: #fff;
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
-  justify-content: center;
   bottom: 0;
   padding-top: 70px;
-  padding-right: 120px;
+  padding-left: 44px;
 }
 
 .nav-list-menu .gone {
@@ -431,8 +439,8 @@ textarea:hover {
 .common-li {
   color: #fff5e1;
   margin-bottom: 25px;
+  gap: 23px;
   font-size: 32px;
-  padding: 16px 110px 50px 7px;
   border-bottom: solid 1px #6f6c6b;
 }
 
@@ -446,7 +454,102 @@ textarea:hover {
 }
 
 .nav-list-menu .nav-list {
-  text-align: center;
+  font-size: 32px;
+  width: 298px;
+}
+
+.bgpopup {
+  background-color: #979493;
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.container-pop {
+  background-color: #fff;
+  width: 90%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 20px;
+  left: 17px;
+}
+
+.multi {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  height: 82px;
+  width: 284px;
+  left: 0;
+  top: 0;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  position: static;
+  font-weight: 700;
+}
+
+.multi-med {
+  display: inline-flex;
+}
+
+#close-popup {
+  width: 12px;
+  height: 12px;
+  padding-top: 13px;
+  padding-left: 6px;
+}
+
+.puOut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding: 16px;
+}
+
+.live-prg {
+  color: #344563;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  width: 311px;
+  height: 220px;
+  margin: 12px 0;
+  order: 0;
+  line-height: 24px;
+  font-weight: 400;
+  flex-grow: 0;
+}
+
+.btn-live {
+  padding: 6px 8px;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+  font-size: 17px;
+}
+
+.multi-media {
+  display: none;
+}
+
+.live-source {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+}
+
+.logoImg {
+  width: 60px;
 }
 
 @media screen and (min-width: 992px) {
@@ -460,6 +563,29 @@ textarea:hover {
 
   .d-block {
     display: block;
+  }
+
+  .live-source {
+    padding-top: 44px;
+  }
+
+  .puOut {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 16px;
+    padding-right: 635px;
+  }
+
+  .pop-querry {
+    display: flex;
+    gap: 19px;
+  }
+
+  .img-popup {
+    width: 566px;
+    padding-top: 32px;
   }
 
   .d-none-m {
@@ -488,13 +614,13 @@ textarea:hover {
   }
 
   .logo {
-    margin-left: 154px;
+    margin-left: 103px;
   }
 
   .nav-list {
     display: flex;
     gap: 20px;
-    margin-right: 156px;
+    margin-right: 64px;
     color: #fff;
     list-style: none;
   }
@@ -652,5 +778,55 @@ textarea:hover {
 
   .top-line {
     width: 794px;
+  }
+
+  .multi-media {
+    display: block;
+    font-family: "Crete Round;", sans-serif;
+    font-style: normal;
+    height: 40px;
+    width: 874px;
+    left: 0;
+    top: 0;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    position: static;
+    font-weight: 400;
+  }
+
+  .multi {
+    display: none;
+  }
+
+  .live-prg {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 13px;
+    height: 326px;
+  }
+
+  .container-pop {
+    background-color: #fff;
+    height: 631px;
+    z-index: 1;
+    width: 1156px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    top: 20px;
+    left: 82px;
+    justify-content: center;
+  }
+
+  .prg-btns {
+    display: flex;
+    flex-direction: column;
   }
 }
