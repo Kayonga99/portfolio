@@ -6,8 +6,7 @@
 
 ![screenshot](./Screenshot2.png)
 ![screenshot](./Screenshot3.png)
-![popup screenshot](./popup-screenshot.png)
-![popup screenshot](./desktop-pop-screenshot.png)
+![](./Screenshot4.png)
 
 
 
