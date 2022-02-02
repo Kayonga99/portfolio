@@ -438,6 +438,7 @@ textarea:hover {
 
 .common-li {
   color: #fff5e1;
+  padding-right: 125px;
   margin-bottom: 25px;
   gap: 23px;
   font-size: 32px;
