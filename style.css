@@ -428,10 +428,9 @@ textarea:hover {
   position: absolute;
   top: 0;
   left: 0;
-  justify-content: center;
   bottom: 0;
   padding-top: 70px;
-  padding-right: 120px;
+  padding-left: 44px;
 }
 
 .nav-list-menu .gone {
@@ -442,8 +441,7 @@ textarea:hover {
   color: #fff5e1;
   margin-bottom: 25px;
   gap: 23px;
-  font-size: 12px;
-  /* padding: 16px 66px 9px 7px; */
+  font-size: 32px; 
   border-bottom: solid 1px #6f6c6b;
 }
 

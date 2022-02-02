@@ -1,4 +1,5 @@
 const btn = document.getElementById('btn');
+const closeButton = document.getElementById('close');
 const nav = document.querySelector('.nav');
 const list = document.querySelectorAll('.common-li');
 
