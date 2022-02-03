@@ -16,3 +16,54 @@ list.forEach((element) => {
 });
 btn.addEventListener('click', navList);
 closeButton.addEventListener('click', closeBtn);
+
+const projects = {
+  project1: {
+    heading1: 'Profesional Art Printing Data',
+    featuredImage: 'photos/bg-1.png',
+    description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
+    languages: ['html', 'bootsrap', 'Ruby'],
+    linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
+    linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
+  },
+  project1: {
+    heading1: 'Profesional Art Printing Data',
+    featuredImage: 'photos/bg-1.png',
+    description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
+    languages: ['html', 'bootsrap', 'Ruby'],
+    linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
+    linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
+  },
+  project1: {
+    heading1: 'Profesional Art Printing Data',
+    featuredImage: 'photos/bg-1.png',
+    description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
+    languages: ['html', 'bootsrap', 'Ruby'],
+    linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
+    linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
+  },
+  project1: {
+    heading1: 'Profesional Art Printing Data',
+    featuredImage: 'photos/bg-1.png',
+    description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
+    languages: ['html', 'bootsrap', 'Ruby'],
+    linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
+    linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
+  },
+  project1: {
+    heading1: 'Profesional Art Printing Data',
+    featuredImage: 'photos/bg-1.png',
+    description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
+    languages: ['html', 'bootsrap', 'Ruby'],
+    linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
+    linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
+  },
+  project1: {
+    heading1: 'Profesional Art Printing Data',
+    featuredImage: 'photos/bg-1.png',
+    description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
+    languages: ['html', 'bootsrap', 'Ruby'],
+    linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
+    linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
+  },
+},
