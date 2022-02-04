@@ -71,7 +71,8 @@ const projects = [
   },
 ]
 
-projects.forEach(project => {
+projects.forEach((project, i) => {
+  console.log(i);
   let temp = document.createElement('template');
 
   let tech = '';
@@ -82,7 +83,7 @@ projects.forEach(project => {
   temp.innerHTML =`
   
   <li class="size">
-          <div class="temp2 common-1">
+          <div class="temp2  common-${i}">
             <div class="pad">
               <h3 class="work card-heading">${project.heading1 }</h3>
               <p class="text text-2">
@@ -104,12 +105,6 @@ const seeProjectBtns = document.querySelectorAll('.btns');
 console.log(seeProjectBtns);
 const popup = document.querySelector('.bgpopup');
 const closePopupBtn = document.getElementById('close-popup');
-
-seeProjectBtns.forEach((element) => {
-  // element.addEventListener('click', openPopup);
-});
-
-// closePopupBtn.addEventListener('click', closePopup);
 
 seeProjectBtns.forEach((element) => {
   element.addEventListener('click', () => {
