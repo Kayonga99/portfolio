@@ -3,6 +3,8 @@ const closeButton = document.getElementById('close');
 const nav = document.querySelector('.nav');
 const list = document.querySelectorAll('.common-li');
 
+const ul = document.getElementById('project-box')
+
 function closeBtn() {
   nav.classList.remove('nav-list-menu');
 }
@@ -17,8 +19,9 @@ list.forEach((element) => {
 btn.addEventListener('click', navList);
 closeButton.addEventListener('click', closeBtn);
 
-const projects = {
-  project1: {
+
+const projects = [
+   {
     heading1: 'Profesional Art Printing Data',
     featuredImage: 'photos/bg-1.png',
     description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
@@ -26,7 +29,7 @@ const projects = {
     linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
     linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
   },
-  project1: {
+   {
     heading1: 'Profesional Art Printing Data',
     featuredImage: 'photos/bg-1.png',
     description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
@@ -34,7 +37,7 @@ const projects = {
     linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
     linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
   },
-  project1: {
+   {
     heading1: 'Profesional Art Printing Data',
     featuredImage: 'photos/bg-1.png',
     description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
@@ -42,7 +45,7 @@ const projects = {
     linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
     linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
   },
-  project1: {
+   {
     heading1: 'Profesional Art Printing Data',
     featuredImage: 'photos/bg-1.png',
     description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
@@ -50,7 +53,7 @@ const projects = {
     linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
     linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
   },
-  project1: {
+   {
     heading1: 'Profesional Art Printing Data',
     featuredImage: 'photos/bg-1.png',
     description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
@@ -58,12 +61,62 @@ const projects = {
     linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
     linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
   },
-  project1: {
+   {
     heading1: 'Profesional Art Printing Data',
     featuredImage: 'photos/bg-1.png',
-    description: "  A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
+    description: "A daily selection of privately personalized reads; no accountsor sign-ups required. has been the industry's standard",
     languages: ['html', 'bootsrap', 'Ruby'],
     linkLive: 'location.href=\'https:// https://kayonga99.github.io/portfolio/index.html\'',
     linkSource: "location.href=\'https://github.com/Kayonga99/portfolio'",
   },
-},
+]
+
+projects.forEach(project => {
+  let temp = document.createElement('template');
+
+  let tech = '';
+  project.languages.forEach((lang) => {
+    tech += `<li class="buttons font-f">${lang}</li>`;
+  });
+
+  temp.innerHTML =`
+  
+  <li class="size">
+          <div class="temp2 common-1">
+            <div class="pad">
+              <h3 class="work card-heading">${project.heading1 }</h3>
+              <p class="text text-2">
+              ${project.description}
+              </p>
+              <ul class="tech tech-2">
+               ${tech}
+              </ul>
+            </div>
+            <button type="submit" class="btn btns btn-2 d-none">see project</button>
+          </div>
+        </li>
+  `
+let card = temp.content
+ul.appendChild(card)
+})
+
+const seeProjectBtns = document.querySelectorAll('.btns');
+console.log(seeProjectBtns);
+const popup = document.querySelector('.bgpopup');
+const closePopupBtn = document.getElementById('close-popup');
+
+seeProjectBtns.forEach((element) => {
+  // element.addEventListener('click', openPopup);
+});
+
+// closePopupBtn.addEventListener('click', closePopup);
+
+seeProjectBtns.forEach((element) => {
+  element.addEventListener('click', () => {
+    popup.style.display = 'block';
+  });
+})
+
+closePopupBtn.addEventListener('click', () =>{
+  popup.style.display = 'none';
+})
