@@ -645,6 +645,7 @@ textarea:hover {
     flex-direction: column;
     margin-right: 50px;
     margin-bottom: 12px;
+    padding-top: 134px;
   }
 
   .temp {
