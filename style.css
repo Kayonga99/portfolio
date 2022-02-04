@@ -162,7 +162,6 @@ hr {
   justify-content: flex-start;
 }
 
-
 .tech {
   display: flex;
   padding-top: 22px;
@@ -669,7 +668,8 @@ textarea:hover {
     grid-template-columns: auto auto auto;
   }
 
-  .common-1, .common-4 {
+  .common-1,
+  .common-4 {
     background-image: url("./photos/desktop/common-1.png");
   }
 
@@ -679,6 +679,7 @@ textarea:hover {
     width: 328px;
     border: 1px solid black;
   }
+
   .common-0 p {
     display: none;
   }
@@ -690,6 +691,7 @@ textarea:hover {
   .common-0 h3 {
     display: none;
   }
+
   .common-0 .btn {
     display: block;
     margin-top: 280px;
@@ -700,8 +702,9 @@ textarea:hover {
     background-image: url("./photos/temp2.png");
   }
 
-  .common-2, .common-5 {
-    background-image: url("./photos/desktop/common-3.png")
+  .common-2,
+  .common-5 {
+    background-image: url("./photos/desktop/common-3.png");
   }
 
   .container-2 {
@@ -854,6 +857,7 @@ textarea:hover {
     display: flex;
     flex-direction: column;
   }
+
   .bg-0 {
     background-image: url('./photos/desktop/bg-1.png');
   }
