@@ -106,15 +106,6 @@ closePopupBtn.addEventListener('click', () => {
   popup.style.display = 'none';
 });
 
-cards.forEach((card) => {
-  card.addEventListener('mouseover', () => {
-    seeProjectBtns.forEach((element) => {
-
-      element.style.display = 'block';
-    })
-  })
-})
-
 // form validation
 const formValidation = document.getElementById('name')
 const email = document.getElementById('email')
