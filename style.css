@@ -850,25 +850,5 @@ textarea:hover {
     background-image: url('./photos/desktop/bg-1.png');
   }
 
-  .hover .pad:hover{
-    opacity: 0;
-    /* display: flex; */
-  }
-
-
-  /* .hover .pad:hover  */
-  .hover .pad:hover .btn-2{
-    display: block;
-    margin-top:0;
-   
-    /* background: #000; */
-    /* margin-top: 0; */
-    /* padding-bottom: 22px; */
-    opacity: 1;
-  }
-
-  .pad:hover.btn-2 {
-    display: block;
-    background: #000;
-  }
+  
 }
