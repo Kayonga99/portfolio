@@ -674,22 +674,10 @@ textarea:hover {
   }
 
   .common-0 {
-    background-image: url("./photos/desktop/bg-1.png");
+    background-image: url("./photos/temp2.png");
     height: 348px;
     width: 328px;
     border: 1px solid black;
-  }
-
-  .common-0 p {
-    display: none;
-  }
-
-  .common-0 ul li {
-    display: none;
-  }
-
-  .common-0 h3 {
-    display: none;
   }
 
   .common-0 .btn {
@@ -860,5 +848,27 @@ textarea:hover {
 
   .bg-0 {
     background-image: url('./photos/desktop/bg-1.png');
+  }
+
+  .hover .pad:hover{
+    opacity: 0;
+    /* display: flex; */
+  }
+
+
+  /* .hover .pad:hover  */
+  .hover .pad:hover .btn-2{
+    display: block;
+    margin-top:0;
+   
+    /* background: #000; */
+    /* margin-top: 0; */
+    /* padding-bottom: 22px; */
+    opacity: 1;
+  }
+
+  .pad:hover.btn-2 {
+    display: block;
+    background: #000;
   }
 }

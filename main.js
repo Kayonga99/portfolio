@@ -72,7 +72,7 @@ projects.forEach((project, i) => {
   });
   temp.innerHTML = `
   <li class="size">
-          <div class="temp2  common-${i}">
+          <div class="temp2  common-${i} hover">
             <div class="pad">
               <h3 class="work card-heading">${project.heading1}</h3>
               <p class="text text-2">
@@ -89,6 +89,11 @@ projects.forEach((project, i) => {
   const card = temp.content;
   ul.appendChild(card);
 });
+
+const cards = document.querySelectorAll('.temp2')
+
+
+console.log(cards);
 const seeProjectBtns = document.querySelectorAll('.btns');
 const popup = document.querySelector('.bgpopup');
 const closePopupBtn = document.getElementById('close-popup');
@@ -100,3 +105,39 @@ seeProjectBtns.forEach((element) => {
 closePopupBtn.addEventListener('click', () => {
   popup.style.display = 'none';
 });
+
+cards.forEach((card) => {
+  card.addEventListener('mouseover', () => {
+    seeProjectBtns.forEach((element) => {
+
+      element.style.display = 'block';
+    })
+  })
+})
+
+// form validation
+const formValidation = document.getElementById('name')
+const email = document.getElementById('email')
+const message = document.getElementById('message')
+const form = document.getElementById('form')
+
+// form.addEventListener('submit', (e) => {
+//   e.preventDefault();
+//   const email = mail.value;
+//   if (!isLowerCase(email)) {
+//     errorMessage.style.display = 'block';
+//   } else {
+//     errorMessage.style.display = 'none';
+//     form.submit();
+//   }
+// });
+// form.addEventListener('submit', (e) => {
+// let msg = []
+// if (formValidation.value === '' || formValidation.value == null){
+//   msg.push('Enter name')
+// }
+// if (msg.length > 0){
+//   e.preventDefault()
+// }
+// })
+
