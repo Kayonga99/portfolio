@@ -674,13 +674,13 @@ textarea:hover {
   }
 
   .common-0 {
-    background-image: url("./photos/desktop/bg-1.png");
+    background-image: url("./photos/temp2.png");
     height: 348px;
     width: 328px;
     border: 1px solid black;
   }
 
-  .common-0 p {
+  /* .common-0 p {
     display: none;
   }
 
@@ -690,7 +690,7 @@ textarea:hover {
 
   .common-0 h3 {
     display: none;
-  }
+  } */
 
   .common-0 .btn {
     display: block;
@@ -860,5 +860,16 @@ textarea:hover {
 
   .bg-0 {
     background-image: url('./photos/desktop/bg-1.png');
+  }
+
+  .temp2 .pad:hover {
+    opacity: 0;
+  }
+
+
+
+  .pad:hover.btn-2 {
+    display: block;
+    background: #000;
   }
 }
