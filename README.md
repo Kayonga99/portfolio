@@ -4,9 +4,12 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./Screenshot2.png)
-![screenshot](./Screenshot3.png)
-![](./Screenshot4.png)
+![screenshot](./Screenshot1.png)
+![screenshot](./Screenshot.png)
+![screenshot](./Screenshot4.png)
+![screenshot](./desktop-pop-screenshot.png)
+![screenshot](./popup-screenshot.png)
+
 
 
 
@@ -37,7 +40,7 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 ### Deployment
-[Click here to view web](https://kayonga99.github.io/portfolio/)
+[Click here to view web]( https://kayonga99.github.io/portfolio/)
 
 
 
